@@ -3,5 +3,9 @@ A fully schoool mangement system made on django framework using python where the
 I made this project as part on my personal contribution project.
 
 <h2><b>To Clone the Project </b></h2>
-Run cmd in your PC/laptop and then run the command ...
--git clone https://github.com/Rohit1204/school-management-system.git in your project root directory. 
+Run cmd in your PC/laptop and then run the command ...</br>
+-[Clone this Repository](git clone https://github.com/Rohit1204/school-management-system.git )in your project root directory. 
+
+<h2><b>To Start the Project </b></h2>
+### `pip install -r requirements.txt`  and then
+python manage.py runserver
