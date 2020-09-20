@@ -19,5 +19,5 @@ def PrincipalSignUpView(request):
         'secondary_form': secondary_form
     })
 class  PrincipalHomeView(ListView):
-    template_name = 'principal_view/principal_home.html'  
+    template_name = 'principal/principal_home.html'  
 

@@ -26,7 +26,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('schoolapp.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
-    # path('accounts/signup/student/', students.StudentSignUpView.as_view(), name='student_signup'),
+    path('accounts/signup/student/', students.StudentSignUpView, name='student_signup'),
     # path('accounts/signup/teacher/', teachers.TeacherSignUpView.as_view(), name='teacher_signup'),
     # path('accounts/signup/Parent/', parents.ParentSignUpView.as_view(), name='parent_signup'),
     path('accounts/signup/Principal/', principal.PrincipalSignUpView, name='principal_signup') 
