@@ -1,6 +1,6 @@
 from django.contrib.auth import login
 from django.shortcuts import redirect,render
-from django.views.generic import CreateView
+from django.views.generic import CreateView,ListView
 
 
 def PrincipalSignUpView(request):
@@ -18,4 +18,6 @@ def PrincipalSignUpView(request):
         'main_form': main_form,
         'secondary_form': secondary_form
     })
+class  PrincipalHomeView(ListView):
+    template_name = 'principal_view/principal_home.html'  
 
