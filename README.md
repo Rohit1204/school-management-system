@@ -9,3 +9,6 @@ Run cmd in your PC/laptop and then run the command ...</br>
 <h2><b>To Start the Project </b></h2>
 ### `pip install -r requirements.txt`  and then
 python manage.py runserver
+
+open [localhost:8000]
+
