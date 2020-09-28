@@ -19,5 +19,6 @@ def StudentSignUpView(request):
     })
 
 
-class  StudentHomeView(ListView):
-    template_name = 'student/student_home.html'  
+def StudentHomeView(request):
+    return render(request,'student/student_home.html')
+  

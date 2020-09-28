@@ -22,8 +22,8 @@ class Principal(models.Model):
 
 class Teacher(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
-    FirstName = models.CharField(max_length=50, default="")
-    LastName = models.CharField(max_length=50, default="") 
+    First_Name = models.CharField(max_length=50, default="")
+    Last_Name = models.CharField(max_length=50, default="") 
     Email = models.EmailField(default=False,blank=True)  
     Mobile= models.IntegerField(default=0)    
     image = models.ImageField(upload_to='media/images', default="")
